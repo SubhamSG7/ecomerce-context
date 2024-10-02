@@ -2,21 +2,21 @@ import { Carousel } from "@material-tailwind/react";
 
 export function SimpleSlider() {
   return (
-    <Carousel transition={{ duration: 2 }} className="rounded-xl">
+    <Carousel transition={{ duration: 2 }} className=" h-[45vh]">
       <img
-        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+        src="https://images.hdqwalls.com/wallpapers/road-to-haven-mountains-4k-ut.jpg"
         alt="image 1"
-        className="h-[219] w-full object-cover"
+        className="w-full h-full object-cover"
       />
       <img
-        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+        src="https://images.hdqwalls.com/wallpapers/sunrise-in-twin-lakes-colorado-ll.jpg"
         alt="image 2"
-        className="h-[219] w-full object-cover"
+        className="w-full h-full object-cover"
       />
       <img
-        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+        src="https://images.hdqwalls.com/wallpapers/switzerland-hills-mountains-et.jpg"
         alt="image 3"
-        className="h-[219px] w-full object-cover"
+        className="w-full h-full object-cover"
       />
     </Carousel>
   );

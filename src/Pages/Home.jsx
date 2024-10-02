@@ -1,11 +1,10 @@
-import React from 'react'
-import {SimpleSlider} from '../Components/SimpleSlider'
+import React from "react";
+import { SimpleSlider } from "../Components/SimpleSlider";
 
 export default function Home() {
   return (
-    <div className='border border-black'>
-        <SimpleSlider />
+    <div>
+      <SimpleSlider />
     </div>
-    
-  )
+  );
 }
